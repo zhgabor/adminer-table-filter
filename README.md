@@ -1,6 +1,10 @@
 # adminer-table-filter
 Adminer plugin for quickly filtering tables, works only with custom themes where table list holds floated items
 
+Uses localStorage to hold the filter across url changes
+
+---
+
 ![Screenshot](/../screenshots/table-filter.png "Table filter using custom theme")
 
 ## Installation
@@ -10,5 +14,5 @@ Adminer plugin for quickly filtering tables, works only with custom themes where
 
 ## Dependencies
 
-1. `localStorage` capable browser
-2. Adminer theme
+* `localStorage` capable browser
+* Adminer theme, where the table list items are floated elements
