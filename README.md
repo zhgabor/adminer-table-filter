@@ -1,7 +1,7 @@
 # adminer-table-filter
 Adminer plugin for quickly filtering tables, works only with custom themes where table list holds floated items
 
-![Screenshot](/../screenshots/image.png?raw=true "Table filter using custom theme")
+![Screenshot](/../screenshots/table-filter.png "Table filter using custom theme")
 
 ## Installation
 
