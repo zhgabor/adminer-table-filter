@@ -3,8 +3,6 @@ Adminer plugin for quickly filtering tables, works only with custom themes where
 
 Uses localStorage to hold the filter across url changes
 
----
-
 ![Screenshot](/../screenshots/table-filter.png "Table filter using custom theme")
 
 ## Installation
