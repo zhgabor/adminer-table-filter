@@ -7,7 +7,7 @@ Uses localStorage to hold the filter across url changes
 
 ## Fresh Installation
 
-* Download [plugin.php](https://raw.github.com/vrana/adminer/master/plugins/plugin.php) to `/plugins` directory 
+* Download [plugin.php](https://github.com/vrana/adminer/blob/master/plugins/plugin.php) to `/plugins` directory 
 * Copy `quiclfilter.php` to `/plugins` director
 * Adminer should be renamed to `adminer.php`
 * Create `index.php` and paste this
@@ -41,7 +41,7 @@ include "./adminer.php";
 ?>
 ```
 * Add `new AdminerQuickFilterTables` to `index.php` `$plugins` array
-* Download [Theme](https://raw.githubusercontent.com/vrana/adminer/master/designs/pepa-linha/adminer.css) to `adminer.css`
+* Download [Theme](https://github.com/vrana/adminer/blob/master/designs/pepa-linha/adminer.css) to `adminer.css`
 
 ## Dependencies
 
