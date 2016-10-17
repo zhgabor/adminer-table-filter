@@ -1,5 +1,5 @@
 # adminer-table-filter
-Adminer plugin for quickly filtering tables, works only with custom themes where table list holds floated items
+[Adminer](https://github.com/vrana/adminer) plugin for quickly filtering tables, works only with custom themes where table list holds floated items
 
 Uses localStorage to hold the filter across url changes
 
