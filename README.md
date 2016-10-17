@@ -8,7 +8,7 @@ Uses localStorage to hold the filter across url changes
 ## Fresh Installation
 
 * Download [plugin.php](https://github.com/vrana/adminer/blob/master/plugins/plugin.php) to `/plugins` directory 
-* Copy `quiclfilter.php` to `/plugins` director
+* Copy `quickfilter.php` to `/plugins` directory
 * Adminer should be renamed to `adminer.php`
 * Create `index.php` and paste this
 ```php
