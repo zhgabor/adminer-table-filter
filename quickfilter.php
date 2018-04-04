@@ -49,7 +49,7 @@ class AdminerQuickFilterTables
 				$('.quick-clear').on('click',function(){
 					$('#quick').val('').trigger('keypress');
 				})
-				$('#quick').on('keyup keypress',function(){
+				$('#quick').on('keyup keypress',function(e){
 					if(e.key === 'Escape') {
 						$(this).val('');
 					}					
@@ -59,11 +59,14 @@ class AdminerQuickFilterTables
 					if(filter.length){
 						$('.quick-clear').show();
 						//hide all show only match
-						$('#tables a').hide();
-						$('#tables a[href*="'+filter+'"]').show();
+						$('#tables a').parent().hide();
+						$('#tables a[href*="table='+filter+'"]').parent().show();
+						if(e.key === 'Enter') {
+							window.location = $('#tables a[href*="table='+filter+'"]').first().attr('href');
+						}
 					}else{
 						$('.quick-clear').hide();
-						$('#tables a').show();
+						$('#tables a').parent().show();
 					}
 				}).val(localStorage.getItem('filter')).trigger('keypress');
 			})
