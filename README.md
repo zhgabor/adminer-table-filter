@@ -3,7 +3,7 @@
 
 Uses localStorage to hold the filter across url changes
 
-![Screenshot](adminer-table-filter/Screen Shot 2018-04-05 at 9.25.46 AM.png "Table filter using custom theme")
+![Screenshot](Screen%20Shot%202018-04-05%20at%209.25.46%20AM.png "Table filter using custom theme")
 
 ## Fresh Installation
 
