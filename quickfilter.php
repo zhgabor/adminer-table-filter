@@ -15,6 +15,7 @@ class AdminerQuickFilterTables
 	}
 	public function head()
 	{   
+		$nonce = get_nonce();
 ?>
 
 		<style>
@@ -42,14 +43,14 @@ class AdminerQuickFilterTables
 			    cursor: pointer;
 			}
 		</style>
-		<script type="text/javascript" src="//code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-		<script type="text/javascript">
+		<script type="text/javascript" src="//code.jquery.com/jquery-3.1.1.slim.min.js" nonce="<?= $nonce ?>"></script>
+		<script type="text/javascript" nonce="<?= $nonce ?>">
 			jQuery(document).ready(function($){
 				$('#tables').prepend('<div class="quick-filter"><input id="quick" placeholder="Filter tables"><div class="clear quick-clear">X</div></div>');
 				$('.quick-clear').on('click',function(){
 					$('#quick').val('').trigger('keypress');
 				})
-				$('#quick').on('keyup keypress',function(){
+				$('#quick').on('keyup keypress',function(e){
 					if(e.key === 'Escape') {
 						$(this).val('');
 					}					
