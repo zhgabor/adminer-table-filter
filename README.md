@@ -3,7 +3,7 @@
 
 Uses localStorage to hold the filter across url changes
 
-![Screenshot](/../screenshots/table-filter.png "Table filter using custom theme")
+![Screenshot](Screen%20Shot%202018-04-05%20at%209.25.46%20AM.png "Table filter using custom theme")
 
 ## Fresh Installation
 
