@@ -69,9 +69,9 @@ class AdminerQuickFilterTables
 				}).val(localStorage.getItem('filter')).trigger('keypress');
 			})
 
-		</script>
+        </script>
 
 <?php
-	}
-	
+    }
+
 }
